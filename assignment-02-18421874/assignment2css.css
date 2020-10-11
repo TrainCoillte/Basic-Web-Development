@@ -1,0 +1,118 @@
+.header{
+ text-align:center;
+   font-size:45px;
+   font-family:Orbitron;
+  background:#0000ff;
+}
+.gamecontainer{
+}
+/* main is the largest background circle on which all buttons sit*/
+.main{
+  center:auto;
+  display:inline-block;
+  position:absolute;
+  margin-top:100px;
+  margin-left:720px;
+height:200px;
+  width:200px;
+border-radius:50%;
+  background:black;
+}
+/* select is the start button for the game*/
+#select{
+  font-family:Orbitron;
+  center:auto;
+  background:white;
+  margin-top:80px;
+  margin-left:75px;
+  postion:absolute;
+height:20px;
+  width:50px;
+  text-color:black;
+  text-align:center;
+}
+/* light is the button which turns green once game commences and resets when game is over*/
+#light{
+  center:auto;
+  display
+  position:absolute;
+  margin-top:10px;
+  margin-left:90px;
+height:20px;
+  width:20px;
+border-radius:50%;
+  background:red;
+}
+/* counter is the section which holds the current game level*/
+#counter{
+   font-family:Orbitron;
+  center:auto;
+  position:absolute;
+  height:20px;
+    width:20px;
+  margin-left:127px;
+  margin-top:-50px;
+  text-align:center;
+  background:white;
+  border-radius:50%;
+  
+}
+/*lvl tracks the high score for the current game */
+#lvl{
+   font-family:Orbitron;
+  center:auto;
+  position:absolute;
+height:20px;
+  width:20px;
+  text-align:center;
+  margin-left:50px;
+  margin-top:-50px;
+  border-radius:50%;
+  background:white;
+}
+/* colorbutton is the class in which all buttons are created*/
+.colorbutton{
+  center:auto;
+  filter:brightness(20%);
+  align:center;
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border-style:solid;
+  border-color:grey;
+  border-width:5px;
+}
+/* holds the yellow circle componments*/
+#circle1{
+  center:auto;
+  margin-top:75px;
+  margin-left:700px;
+background:yellow;
+}
+/* holds the green circle variables*/
+#circle2{
+  center:auto;
+  margin-top:220px;
+  margin-left:700px;
+background:green
+}
+/* holds red circle variables*/
+#circle3{
+  center:auto;
+  margin-top:74px;
+    margin-left:840px;
+background:red;
+}
+/* holds blue circle variables*/
+#circle{
+  center:auto;
+  position:absolute;
+  margin-top:220px;
+  margin-left:840px;
+background:blue;
+  
+}
+
+
